@@ -1,0 +1,21 @@
+{
+  "name": "FindRestaurants",
+  "platform": "HTML",
+  "version": "2.7",
+  "wabVersion": "2.7",
+  "author": "Hassaan Qazi",
+  "description": "Helps Hassaan find his specific food preferences on trips",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "hasConfig": true,
+    "hasStyle": true,
+    "hasLocale": true,
+    "hasUIFile": true,
+    "hasSettingPage": true
+  },
+  "featureActions": [{
+    "name": "RestaurantsNear",
+    "uri": "RestaurantsNearAction"
+  }]
+}
